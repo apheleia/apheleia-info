@@ -31,7 +31,7 @@ module.exports = function(grunt) {
         mangle: false
       },
 
-      px_to_em: {
+      apheleia: {
         files: {
           'target/js/apheleia.js': ['bower_components/angular/angular.js', 'src/js/apheleia.js']
         }
