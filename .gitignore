@@ -1,3 +1,8 @@
-# node and bower
+# node, bower, etc.
 node_modules/
 bower_components/
+.sass-cache/
+
+# target and intermediate directories
+build/
+target/
