@@ -6,3 +6,7 @@ bower_components/
 # target and intermediate directories
 build/
 target/
+
+# intellij
+.idea/
+*.iml
