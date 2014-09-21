@@ -1,0 +1,6 @@
+{
+    "name": "apheleia-info",
+    "dependencies": {
+        "foundation": "~5.1.0"
+    }
+}

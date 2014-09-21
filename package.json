@@ -1,0 +1,23 @@
+{
+  "name": "apheleia-info",
+  "version": "1.0.0",
+  "description": "apheleia-info =============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apheleia/apheleia-info.git"
+  },
+  "author": "Martin Schenck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apheleia/apheleia-info/issues"
+  },
+  "homepage": "https://github.com/apheleia/apheleia-info",
+  "devDependencies": {
+    "bower": "^1.3.11",
+    "grunt": "^0.4.5"
+  }
+}
