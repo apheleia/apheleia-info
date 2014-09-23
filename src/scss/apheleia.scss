@@ -31,6 +31,19 @@ h2 {
   background-color: $color-tertiary;
 }
 
-.tertiary, .tertiary  h2 {
+.tertiary, .tertiary  h2, .tertiary h3 {
   color: $color-quaternary;
+}
+
+.aph-about a {
+  color: $color-quaternary;
+  text-decoration: underline;
+}
+
+.aph-contact a {
+  font-size: 6em;
+}
+
+.shadow {
+  box-shadow: 0 0 10px #000;
 }

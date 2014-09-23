@@ -49,6 +49,7 @@ module.exports = function(grunt) {
             main: {
                 files: [
                     {src: 'src/index.html', dest: 'target/index.html'},
+                    {src: 'src/img/profile.png', dest: 'target/img/profile.png'},
                     {expand: true, flatten: true, filter: 'isFile', src: ['bower_components/components-font-awesome/fonts/*'], dest: 'target/fonts/'}
                 ]
             }
