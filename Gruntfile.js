@@ -12,7 +12,8 @@ module.exports = function(grunt) {
                 },
                 files: {
                     'build/app.css': 'src/scss/app.scss',
-                    'build/apheleia.css': 'src/scss/apheleia.scss'
+                    'build/apheleia.css': 'src/scss/apheleia.scss',
+                    'build/font-awesome.css': 'bower_components/components-font-awesome/scss/font-awesome.scss'
                 }
             }
         },
@@ -21,7 +22,7 @@ module.exports = function(grunt) {
             options: {},
 
             dist: {
-                src: ['build/app.css', 'build/apheleia.css'],
+                src: ['build/app.css', 'build/font-awesome.css', 'build/apheleia.css'],
                 dest: 'target/css/apheleia.css'
             }
         },
@@ -46,8 +47,10 @@ module.exports = function(grunt) {
 
         copy: {
             main: {
-                src: 'src/index.html',
-                dest: 'target/index.html'
+                files: [
+                    {src: 'src/index.html', dest: 'target/index.html'},
+                    {expand: true, flatten: true, filter: 'isFile', src: ['bower_components/components-font-awesome/fonts/*'], dest: 'target/fonts/'}
+                ]
             }
         },
 
