@@ -9,41 +9,64 @@ $color-quaternary: #FEFEF2;
 body {
   background-color: $color-quaternary;
 }
-
+section {
+  margin: 2rem 0 2rem 0;
+}
 h1, h2 {
   font-family: 'Lato', sans-serif;
+  text-shadow: 0 -1px 1px rgba(darken($color-secondary, 25%), 1);
 }
 
 h1 {
   color: $color-secondary;
   font-weight: 900;
-  font-size: 10em;
+  font-size: 10rem;
   font-size: 18vw;
 }
 
 h2 {
   color: $color-primary;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 2.225rem;
 }
+.button {
+  margin: .5rem;
+  text-shadow: 0 -1px 1px rgba(black, .36);
+  border-bottom: 1px solid darken($color-primary, 12%);
+}
+.button:hover {
+  text-shadow: 0 -1px 1px rgba(black, .56);
+} 
 
 .tertiary {
+  border-top: 1px solid white;
   background-color: $color-tertiary;
 }
 
 .tertiary, .tertiary  h2, .tertiary h3 {
   color: $color-quaternary;
 }
-
+.aph-about {
+  padding: 4rem 0 4rem 0;
+}
 .aph-about a {
   color: $color-quaternary;
   text-decoration: underline;
 }
-
+.aph-contact {
+  padding: 2rem 0 2rem 0;
+}
 .aph-contact a {
-  font-size: 6em;
+  font-size: 4rem;
+  transition: all 125ms ease-out;
+}
+.aph-contact a:hover {
+  color: #e74c3c;
 }
 
 .shadow {
   box-shadow: 0 0 10px #000;
 }
+
+
+
